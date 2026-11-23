@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}Inicio - Menú Principal{% endblock %}
+
+{% block content %}
+<h2>Menú Principal</h2>
+<p>Selecciona la actividad que deseas revisar:</p>
+
+<div class="menu-container">
+    <a href="{{ url_for('ejercicio1') }}">
+        <button type="button">Ejercicio 1</button>
+    </a>
+    <a href="{{ url_for('ejercicio2') }}">
+        <button type="button">Ejercicio 2</button>
+    </a>
+</div>
+{% endblock %}

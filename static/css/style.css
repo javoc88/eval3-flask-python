@@ -1,0 +1,62 @@
+/* Configuración general */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 550px;
+    margin: 40px auto;
+    padding: 25px;
+    background-color: #f4f6f9;
+    color: #333;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+/* Formato menú y botones */
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.menu-container a {
+    width: 80%;
+    text-decoration: none;
+}
+
+button {
+    width: 100%;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+input[type="number"], input[type="text"] {
+    padding: 9px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
